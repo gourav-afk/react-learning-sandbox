@@ -40,31 +40,8 @@
     scale: 1.1;
 }
 
-.app-container .color-boxes input[type="radio"]:hover{
+.app-container .color-boxes input[type="radio"]:hover {
     cursor: pointer;
-}
-
-.app-container .first-color{
-    background-color: red;
-}
-
-.app-container .second-color{
-    background-color: gold;
-}
-.app-container .third-color{
-    background-color: silver;
-}
-.app-container .fourth-color{
-    background-color: teal;
-}
-.app-container .fifth-color{
-    background-color: hotpink;
-}
-.app-container .sixth-color{
-    background-color: maroon;
-}
-.app-container .seventh-color{
-    background-color: orange;
 }
 
 .color-picker{
