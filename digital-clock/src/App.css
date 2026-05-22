@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: indianred;
+    width: 100%;
+    height: 100vh;
+}
+
+.app-container h1{
+    font-size: 4rem;
+    margin-bottom: 100px;
+}
+
+.clock{
+    font-size: 4rem;
+    border: 2px solid white;
+    width: 30%;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 4px 20px white inset;
+    flex-direction: column;
+    background-color: rgb(255 255 255 / 0.09);
+}
+
+.clock .time-period{
+    font-size: 2rem;
+}
